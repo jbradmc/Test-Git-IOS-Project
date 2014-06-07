@@ -21,6 +21,7 @@
 		CE5342241943698A005012A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5342061943698A005012A5 /* UIKit.framework */; };
 		CE53422C1943698A005012A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE53422A1943698A005012A5 /* InfoPlist.strings */; };
 		CE53422E1943698A005012A5 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE53422D1943698A005012A5 /* Git_TestTests.m */; };
+		CE53423919436F60005012A5 /* JBMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE53423819436F60005012A5 /* JBMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CE5342291943698A005012A5 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		CE53422B1943698A005012A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE53422D1943698A005012A5 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		CE53423719436F60005012A5 /* JBMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBMTest.h; path = ../JBMTest.h; sourceTree = "<group>"; };
+		CE53423819436F60005012A5 /* JBMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBMTest.m; path = ../JBMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				CE5342171943698A005012A5 /* JBMViewController.h */,
 				CE5342181943698A005012A5 /* JBMViewController.m */,
 				CE53421A1943698A005012A5 /* Images.xcassets */,
+				CE53423719436F60005012A5 /* JBMTest.h */,
+				CE53423819436F60005012A5 /* JBMTest.m */,
 				CE5342091943698A005012A5 /* Supporting Files */,
 			);
 			path = "Git Test";
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5342131943698A005012A5 /* JBMAppDelegate.m in Sources */,
+				CE53423919436F60005012A5 /* JBMTest.m in Sources */,
 				CE5342191943698A005012A5 /* JBMViewController.m in Sources */,
 				CE53420F1943698A005012A5 /* main.m in Sources */,
 			);
